@@ -173,7 +173,7 @@ public class Program
 
     private static void WriteFileData(string? name)
     {
-        // Why not use FileMode.OpenOrCreate? :-)
+        // Why not use FileMode.OpenOrCreate? :-) && Using instead of close explicitly
         FileStream fs = new FileStream(name, FileMode.Create, FileAccess.ReadWrite);
         StreamWriter w = new StreamWriter(fs);
         var text = Console.ReadLine();
