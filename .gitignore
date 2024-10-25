@@ -1,0 +1,66 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.vspscc
+*.vssscc
+
+# Visual Studio Code settings
+.vscode/
+
+# Visual Studio specific
+.vs/
+
+# Rider specific
+.idea/
+.idea_modules/
+
+# Packages folder (when using NuGet)
+packages/
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Recycle bin folder
+$RECYCLE.BIN/
+
+# macOS and Linux files
+.DS_Store
+._*
+Thumbs.db
+
+# Resharper and JetBrains Rider
+_ReSharper*/
+*.suo
+*.sln.docstates
+
+# Build Results
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Azure Pipelines
+.terraform/
+.env
+node_modules/
+
+# Coverage Reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Code analysis
+*.codeanalysis
+
+# Application Insights
+ApplicationInsights.config
+ApplicationInsights/Logs/
