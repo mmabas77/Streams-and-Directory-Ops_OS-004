@@ -10,7 +10,7 @@ public class Program
         {
             Console.Write("mmabas@SDOps:~$ ");
             string input = Console.ReadLine() ?? "";
-            switch (input)
+            switch (input.Trim())
             {
                 case "pwd":
                     Pwd();
